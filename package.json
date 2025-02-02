@@ -10,8 +10,7 @@
     "start": "node dist/server/",
     "build": "ng build && tsc -p tsconfig.server.json",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "heroku-prebuild": "npm config set legacy-peer-deps true"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
